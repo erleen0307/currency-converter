@@ -11,7 +11,8 @@
 
 ## 📸 Preview
 
-![App Preview](preview.png)
+![Light Mode Preview](preview-light-mode.png)
+![Dark Mode Preview](preview-dark-mode.png)
 
 ---
 
@@ -31,7 +32,9 @@
 - **CSS3**
 - **Vanilla JavaScript**
 - **ExchangeRate API**
-
+- **REST Countries API**
+- **FlagCDN API**
+  
 ---
 
 ## 📦 Folder Structure
@@ -40,6 +43,8 @@
 
 currency-converter/
 │
+├── preview-light-mode.png
+├── preview-dark-mode.png
 ├── index.html         # Main HTML file
 ├── style.css          # Styling (responsive + dark mode)
 └── script.js          # API fetch + DOM handling
