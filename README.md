@@ -5,11 +5,13 @@
 
 ## 🚀 Live Demo
 
-🔗 ('')
+🔗 (https://erleen0307.github.io/currency-converter/)
 
 ---
 
 ## 📸 Preview
+
+![App Preview](preview.png)
 
 ---
 
