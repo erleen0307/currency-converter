@@ -1,6 +1,6 @@
 # 💱 Currency Converter
 
-A sleek and simple currency converter web app built using **HTML**, **CSS**, and **JavaScript**. It fetches **real-time exchange rates** using an API and supports features like currency swapping, conversion rate display, and dark mode.
+###A sleek and simple currency converter web app built using **HTML**, **CSS**, and **JavaScript**. It fetches **real-time exchange rates** using an API and supports features like currency swapping, conversion rate display, and dark mode.
 ---
 
 ## 🚀 Live Demo
