@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Tinos&display=swap" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <h1>Currency Converter</h1>
+        <button class="dark-toggle" aria-label="Toggle Dark Mode">🌙 Toggle Dark Mode</button>
+    </header>
+
+    <main class="mainFrame">
+        <section class="from-container" aria-labelledby="fromLabel">
+            <p id="fromLabel">From</p>
+            <div class="dropdown">
+                <select class="fromSelect" aria-label="Select source country"></select>
+            </div>
+            <img alt="Source country flag" />
+            <input type="number" min="0" step="0.01" class="fromAmount" placeholder="Enter amount" aria-label="Amount to convert" />
+        </section>
+
+        <button class="swap-btn" aria-label="Swap currencies">
+            <i class="fa-solid fa-right-left swap-icon" aria-hidden="true"></i>
+        </button>
+
+        <section class="to-container" aria-labelledby="toLabel">
+            <p id="toLabel">To</p>
+            <div class="dropdown">
+                <select class="toSelect" aria-label="Select target country"></select>
+            </div>
+            <img alt="Target country flag" />
+            <input type="text" class="toAmount" readonly placeholder="Converted amount" aria-label="Converted result" />
+        </section>
+    </main>
+
+    <p class="conversionRateText" role="status" aria-live="polite"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
